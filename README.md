@@ -1,4 +1,4 @@
-![System Architecture](assets/Spotify_Data_Analysis.drawio.svg)
+![System Architecture](assets/Spotify_Data_Analysis.drawio(1).svg)
 # 🎧 Real-Time Spotify Streaming Analytics Platform  
 *End-to-End Streaming Data Pipeline with Kafka, Snowflake, dbt & Power BI*
 
