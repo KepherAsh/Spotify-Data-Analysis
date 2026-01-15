@@ -137,6 +137,7 @@ Implemented a **three-layer Medallion Architecture** inside Snowflake:
 - Topic-based ingestion
 - Decoupling producers and consumers
 - High-throughput data pipelines
+  -
 ![Kafka](kafdrop.png)
 ---
 
