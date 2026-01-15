@@ -14,7 +14,7 @@ The pipeline begins with a **Python-based data simulator** that generates Spotif
 
 The result is a real-time dashboard that provides visibility into **plays, user engagement, artist popularity, device usage, and geographic distribution**, demonstrating how modern data engineering tools can convert high-velocity event streams into actionable insights.
 
----
+!
 
 ## 2. Business Problem
 
@@ -107,7 +107,6 @@ Implemented a **three-layer Medallion Architecture** inside Snowflake:
   - Task dependencies
   - Scheduling
   - Error handling and retries
-
 ---
 
 ### Analytics & Visualization
@@ -138,14 +137,14 @@ Implemented a **three-layer Medallion Architecture** inside Snowflake:
 - Topic-based ingestion
 - Decoupling producers and consumers
 - High-throughput data pipelines
-
+![Kafka](kafdrop.png)
 ---
 
 ### 🪣 MinIO (S3-Compatible Data Lake)
 - Object storage for raw streaming data
 - Durable, scalable event persistence
 - Acts as the raw data source for Snowflake ingestion
-
+![MinIO](minio.png)
 ---
 
 ### 🗄️ Snowflake
@@ -169,7 +168,7 @@ Implemented a **three-layer Medallion Architecture** inside Snowflake:
 - DAG-based workflow management
 - Dependency handling and scheduling
 - Production-style automation
-
+![Orchestration](assets/airflow.png)
 ---
 
 ### 🐳 Docker
@@ -180,7 +179,7 @@ Implemented a **three-layer Medallion Architecture** inside Snowflake:
   - dbt
 - Ensures reproducibility and environment consistency
 - Simplifies local and production deployments
-
+![Docker](docker.png)
 ---
 
 ### 📊 Power BI
